@@ -1,0 +1,10 @@
+/WaterSurface
+-1
+bake
+16
+1
+1024
+not set
+False
+1.0
+1024

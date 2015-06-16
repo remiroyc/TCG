@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: aeaa233d9821391409db5990f26fd513
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: aura
+    100004: aura 2
+    100006: Bottom 1 Base
+    100008: bottom 2
+    100010: flame 2 base
+    100012: flame base
+    100014: joint10
+    100016: joint11
+    100018: joint13
+    100020: joint14
+    100022: joint15
+    100024: joint16
+    100026: joint18
+    100028: joint19
+    100030: joint20
+    100032: joint21
+    100034: joint23
+    100036: joint24
+    100038: joint25
+    100040: joint26
+    100042: joint8
+    100044: joint9
+    100046: SMDImport
+    400000: //RootNode
+    400002: aura
+    400004: aura 2
+    400006: Bottom 1 Base
+    400008: bottom 2
+    400010: flame 2 base
+    400012: flame base
+    400014: joint10
+    400016: joint11
+    400018: joint13
+    400020: joint14
+    400022: joint15
+    400024: joint16
+    400026: joint18
+    400028: joint19
+    400030: joint20
+    400032: joint21
+    400034: joint23
+    400036: joint24
+    400038: joint25
+    400040: joint26
+    400042: joint8
+    400044: joint9
+    400046: SMDImport
+    4300000: SMDImport
+    7400000: Aura_idle
+    9500000: //RootNode
+    13700000: SMDImport
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Aura_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: aura
+        weight: 1
+      - path: aura 2
+        weight: 1
+      - path: Bottom 1 Base
+        weight: 1
+      - path: Bottom 1 Base/joint18
+        weight: 1
+      - path: Bottom 1 Base/joint19
+        weight: 1
+      - path: Bottom 1 Base/joint20
+        weight: 1
+      - path: Bottom 1 Base/joint21
+        weight: 1
+      - path: bottom 2
+        weight: 1
+      - path: bottom 2/joint23
+        weight: 1
+      - path: bottom 2/joint24
+        weight: 1
+      - path: bottom 2/joint25
+        weight: 1
+      - path: bottom 2/joint26
+        weight: 1
+      - path: flame 2 base
+        weight: 1
+      - path: flame 2 base/joint13
+        weight: 1
+      - path: flame 2 base/joint14
+        weight: 1
+      - path: flame 2 base/joint15
+        weight: 1
+      - path: flame 2 base/joint16
+        weight: 1
+      - path: flame base
+        weight: 1
+      - path: flame base/joint8
+        weight: 1
+      - path: flame base/joint9
+        weight: 1
+      - path: flame base/joint10
+        weight: 1
+      - path: flame base/joint11
+        weight: 1
+      - path: SMDImport
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

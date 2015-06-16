@@ -1,0 +1,8 @@
+Questions and feedback :
+
+http://www.funkyllama.weebly.com
+
+Example scene is set-up for Linear color space, make sure it's on in the Project Settings/Player.
+
+Full version of the package:
+http://u3d.as/content/funky-llama/sandstone-desert-rocks/7Zw

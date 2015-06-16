@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 0ebb04c652417c544bbc678cd4948ce7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: B lip Mouth
+    100002: Back Shirt
+    100004: Bip01
+    100006: Bip01 Head
+    100008: Bip01 L Arm
+    100010: Bip01 L Arm1
+    100012: Bip01 L Arm2
+    100014: Bip01 L Finger0
+    100016: Bip01 L Finger1
+    100018: Bip01 L Foot
+    100020: Bip01 L Hand
+    100022: Bip01 L Leg
+    100024: Bip01 L Leg1
+    100026: Bip01 Neck
+    100028: Bip01 Pelvis
+    100030: Bip01 R Arm
+    100032: Bip01 R Arm1
+    100034: Bip01 R Arm2
+    100036: Bip01 R Finger0
+    100038: Bip01 R Finger1
+    100040: Bip01 R Foot
+    100042: Bip01 R Hand
+    100044: Bip01 R Leg
+    100046: Bip01 R Leg1
+    100048: Bip01 Spine
+    100050: Bip01 Spine1
+    100052: Bip01 Spine2
+    100054: Bip01 Spine3
+    100056: C mouth
+    100058: Front Shirt
+    100060: //RootNode
+    100062: hai-mid
+    100064: hair_tips
+    100066: L C Mouth
+    100068: L Leg Pant
+    100070: L Leg U Pant
+    100072: L Shirt
+    100074: R C Mouth
+    100076: R Leg Pant
+    100078: R Leg U Pant
+    100080: R Shirt
+    400000: B lip Mouth
+    400002: Back Shirt
+    400004: Bip01
+    400006: Bip01 Head
+    400008: Bip01 L Arm
+    400010: Bip01 L Arm1
+    400012: Bip01 L Arm2
+    400014: Bip01 L Finger0
+    400016: Bip01 L Finger1
+    400018: Bip01 L Foot
+    400020: Bip01 L Hand
+    400022: Bip01 L Leg
+    400024: Bip01 L Leg1
+    400026: Bip01 Neck
+    400028: Bip01 Pelvis
+    400030: Bip01 R Arm
+    400032: Bip01 R Arm1
+    400034: Bip01 R Arm2
+    400036: Bip01 R Finger0
+    400038: Bip01 R Finger1
+    400040: Bip01 R Foot
+    400042: Bip01 R Hand
+    400044: Bip01 R Leg
+    400046: Bip01 R Leg1
+    400048: Bip01 Spine
+    400050: Bip01 Spine1
+    400052: Bip01 Spine2
+    400054: Bip01 Spine3
+    400056: C mouth
+    400058: Front Shirt
+    400060: //RootNode
+    400062: hai-mid
+    400064: hair_tips
+    400066: L C Mouth
+    400068: L Leg Pant
+    400070: L Leg U Pant
+    400072: L Shirt
+    400074: R C Mouth
+    400076: R Leg Pant
+    400078: R Leg U Pant
+    400080: R Shirt
+    7400000: Goku_left_medium_attack2
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Goku_left_medium_attack2
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .316091955
+        functionName: CheckAttackCharge
+        data: right_foot
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 L Leg
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 L Leg/Bip01 L Leg1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 L Leg/Bip01 L Leg1/Bip01 L Foot
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 L Leg/Bip01 L Leg1/R Leg Pant
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 L Leg/R Leg U Pant
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 R Leg
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 R Leg/Bip01 R Leg1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 R Leg/Bip01 R Leg1/Bip01 R Foot
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 R Leg/Bip01 R Leg1/L Leg Pant
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 R Leg/L Leg U Pant
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Back
+          Shirt
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/B lip Mouth
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/C mouth
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/hai-mid
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/hai-mid/hair_tips
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/L C Mouth
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/R C Mouth
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1/Bip01 L Arm2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1/Bip01 L Arm2/Bip01 L Hand
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1/Bip01 L Arm2/Bip01 L Hand/Bip01 L Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1/Bip01 L Arm2/Bip01 L Hand/Bip01 L Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1/R Shirt
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1/Bip01 R Arm2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1/Bip01 R Arm2/Bip01 R Hand
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1/Bip01 R Arm2/Bip01 R Hand/Bip01 R Finger0
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1/Bip01 R Arm2/Bip01 R Hand/Bip01 R Finger1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1/L Shirt
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Front
+          Shirt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 108dc4aaa0a94954eb40557299296540,
+    type: 3}
+  animationType: 2
+  additionalBone: 0
+  userData: 

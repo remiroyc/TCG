@@ -1,0 +1,294 @@
+# Wall_8
+newmtl material_0
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_0.tga
+
+# Wall_1
+newmtl material_1
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_1.tga
+
+# Kame_House04
+newmtl material_2
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_2.tga
+
+# grey_small_tile
+newmtl material_3
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_3.tga
+
+# Wall_2
+newmtl material_4
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_4.tga
+
+# Wall_3
+newmtl material_5
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_5.tga
+
+# Ground_03
+newmtl material_6
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_6.tga
+
+# Ground_16
+newmtl material_7
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_7.tga
+
+# Ground_1x
+newmtl material_8
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_8.tga
+
+# Kame_House02
+newmtl material_9
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_9.tga
+
+# Ground
+newmtl material_10
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_10.tga
+
+# Ground_1
+newmtl material_11
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_11.tga
+
+# Wall_7
+newmtl material_12
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_12.tga
+
+# Kame_House01
+newmtl material_13
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_13.tga
+
+# Wall_4
+newmtl material_14
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_14.tga
+
+# Wall_5
+newmtl material_15
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_15.tga
+
+# Wall_6
+newmtl material_16
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_16.tga
+
+# Pic_4
+newmtl material_17
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_17.tga
+
+# Pic_5
+newmtl material_18
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_18.tga
+
+# Wall_14
+newmtl material_19
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_19.tga
+
+# Obj_6
+newmtl material_20
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_20.tga
+
+# Obj_5
+newmtl material_21
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_21.tga
+
+# Pic_2
+newmtl material_22
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_22.tga
+
+# 4_m
+newmtl material_23
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_23.tga
+
+# Ground_14
+newmtl material_24
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_24.tga
+
+# 1
+newmtl material_25
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_25.tga
+
+# Ground_3x
+newmtl material_26
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_26.tga
+
+# Kame_House03
+newmtl material_27
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_27.tga
+
+# Ground_01
+newmtl material_28
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_28.tga
+
+# Ground_02
+newmtl material_29
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_29.tga
+
+# Ground_05
+newmtl material_30
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_30.tga
+
+# Ground_04
+newmtl material_31
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_31.tga
+
+# Obj_9
+newmtl material_32
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_32.tga
+
+# Pic_1
+newmtl material_33
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_33.tga
+
+# Wall_13
+newmtl material_34
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_34.tga
+
+# Obj_4
+newmtl material_35
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_35.tga
+
+# Wall_11
+newmtl material_36
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_36.tga
+
+# Obj_3
+newmtl material_37
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_37.tga
+
+# Obj_1
+newmtl material_38
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_38.tga
+
+# Obj_2
+newmtl material_39
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_39.tga
+
+# Wall_12
+newmtl material_40
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_40.tga
+
+# Wall_10
+newmtl material_41
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_41.tga
+
+# Ground_2x
+newmtl material_42
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_42.tga
+
+# Obj_8
+newmtl material_43
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_43.tga
+
+# Ground_15
+newmtl material_44
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_44.tga
+
+# Wall_9
+newmtl material_45
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_45.tga
+
+# Pic_3
+newmtl material_46
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_46.tga
+
+# Obj_7
+newmtl material_47
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_47.tga
+
+# !islandwater
+newmtl material_48
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd kamehouse_material_48.tga
+

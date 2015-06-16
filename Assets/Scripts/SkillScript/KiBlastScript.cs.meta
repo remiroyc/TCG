@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 56481325127f51642861934e6a82b7e2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - CharController: {instanceID: 0}
+  - KiBlastSound: {instanceID: 0}
+  - KiBlastPrefab: {fileID: 100000, guid: b4b631ff444d0df499a830768ee56119, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

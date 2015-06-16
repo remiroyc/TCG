@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: f0e45d9a17688124b8119e5ecffbf2b8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: -headtail 02
+    100002: -headtail 03
+    100004: -headtail 04
+    100006: Bip01
+    100008: Bip01 Head
+    100010: Bip01 L Arm
+    100012: Bip01 L Arm1
+    100014: Bip01 L Arm2
+    100016: Bip01 L Foot
+    100018: Bip01 L Hand
+    100020: Bip01 L Leg
+    100022: Bip01 L Leg1
+    100024: Bip01 Neck
+    100026: Bip01 Pelvis
+    100028: Bip01 R Arm
+    100030: Bip01 R Arm1
+    100032: Bip01 R Arm2
+    100034: Bip01 R Foot
+    100036: Bip01 R Hand
+    100038: Bip01 R Leg
+    100040: Bip01 R Leg1
+    100042: Bip01 Spine
+    100044: Bip01 Spine1
+    100046: Bip01 Spine2
+    100048: Bip01 Spine3
+    100050: joint34
+    100052: joint35
+    100054: joint36
+    100056: //RootNode
+    400000: -headtail 02
+    400002: -headtail 03
+    400004: -headtail 04
+    400006: Bip01
+    400008: Bip01 Head
+    400010: Bip01 L Arm
+    400012: Bip01 L Arm1
+    400014: Bip01 L Arm2
+    400016: Bip01 L Foot
+    400018: Bip01 L Hand
+    400020: Bip01 L Leg
+    400022: Bip01 L Leg1
+    400024: Bip01 Neck
+    400026: Bip01 Pelvis
+    400028: Bip01 R Arm
+    400030: Bip01 R Arm1
+    400032: Bip01 R Arm2
+    400034: Bip01 R Foot
+    400036: Bip01 R Hand
+    400038: Bip01 R Leg
+    400040: Bip01 R Leg1
+    400042: Bip01 Spine
+    400044: Bip01 Spine1
+    400046: Bip01 Spine2
+    400048: Bip01 Spine3
+    400050: joint34
+    400052: joint35
+    400054: joint36
+    400056: //RootNode
+    7400000: SBuu_left_weak_attack_hit
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SBuu_left_weak_attack_hit
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip01
+        weight: 1
+      - path: Bip01/Bip01 Pelvis
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 L Leg
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 L Leg/Bip01 L Leg1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 L Leg/Bip01 L Leg1/Bip01 L Foot
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 R Leg
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 R Leg/Bip01 R Leg1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 R Leg/Bip01 R Leg1/Bip01 R Foot
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/-headtail 02
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/-headtail 02/-headtail 03
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/-headtail 02/-headtail 03/-headtail 04
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/joint34
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/joint35
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 Head/joint36
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1/Bip01 L Arm2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 L Arm/Bip01 L Arm1/Bip01 L Arm2/Bip01 L Hand
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1/Bip01 R Arm2
+        weight: 1
+      - path: Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01
+          Neck/Bip01 R Arm/Bip01 R Arm1/Bip01 R Arm2/Bip01 R Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: ee58c3f8bcdb7f448827efcafef71470,
+    type: 3}
+  animationType: 2
+  additionalBone: 0
+  userData: 

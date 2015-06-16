@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: d58454c136299734b8ed15beb1e9eaf1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: branch_01
+    100004: branch_02
+    100006: branch_03
+    100008: branch_04
+    100010: branch_05
+    100012: branch_06
+    100014: branch_07
+    100016: branch_08
+    100018: branch_09
+    100020: branch_10
+    100022: branch_11
+    100024: branch_12
+    100026: branch_13
+    100028: branch_14
+    100030: branch_15
+    100032: branch_16
+    100034: branch_17
+    100036: branch_18
+    100038: branch_19
+    100040: branch_20
+    100042: branch_21
+    100044: branch_22
+    100046: branch_23
+    100048: branch_24
+    100050: branch_25
+    100052: branch_26
+    100054: branch_27
+    100056: branch_28
+    100058: branch_29
+    100060: branch_30
+    100062: branch_31
+    100064: branch_32
+    100066: branch_33
+    100068: branch_34
+    100070: branch_35
+    100072: branch_36
+    100074: branch_37
+    100076: branch_38
+    100078: branch_39
+    100080: branch_40
+    100082: root
+    100084: SMDImport
+    400000: //RootNode
+    400002: branch_01
+    400004: branch_02
+    400006: branch_03
+    400008: branch_04
+    400010: branch_05
+    400012: branch_06
+    400014: branch_07
+    400016: branch_08
+    400018: branch_09
+    400020: branch_10
+    400022: branch_11
+    400024: branch_12
+    400026: branch_13
+    400028: branch_14
+    400030: branch_15
+    400032: branch_16
+    400034: branch_17
+    400036: branch_18
+    400038: branch_19
+    400040: branch_20
+    400042: branch_21
+    400044: branch_22
+    400046: branch_23
+    400048: branch_24
+    400050: branch_25
+    400052: branch_26
+    400054: branch_27
+    400056: branch_28
+    400058: branch_29
+    400060: branch_30
+    400062: branch_31
+    400064: branch_32
+    400066: branch_33
+    400068: branch_34
+    400070: branch_35
+    400072: branch_36
+    400074: branch_37
+    400076: branch_38
+    400078: branch_39
+    400080: branch_40
+    400082: root
+    400084: SMDImport
+    4300000: SMDImport
+    7400000: Aura_idle2
+    9500000: //RootNode
+    13700000: SMDImport
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Aura_idle2
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/branch_01
+        weight: 1
+      - path: root/branch_02
+        weight: 1
+      - path: root/branch_03
+        weight: 1
+      - path: root/branch_04
+        weight: 1
+      - path: root/branch_05
+        weight: 1
+      - path: root/branch_06
+        weight: 1
+      - path: root/branch_07
+        weight: 1
+      - path: root/branch_08
+        weight: 1
+      - path: root/branch_09
+        weight: 1
+      - path: root/branch_10
+        weight: 1
+      - path: root/branch_11
+        weight: 1
+      - path: root/branch_12
+        weight: 1
+      - path: root/branch_13
+        weight: 1
+      - path: root/branch_14
+        weight: 1
+      - path: root/branch_15
+        weight: 1
+      - path: root/branch_16
+        weight: 1
+      - path: root/branch_17
+        weight: 1
+      - path: root/branch_18
+        weight: 1
+      - path: root/branch_19
+        weight: 1
+      - path: root/branch_20
+        weight: 1
+      - path: root/branch_21
+        weight: 1
+      - path: root/branch_22
+        weight: 1
+      - path: root/branch_23
+        weight: 1
+      - path: root/branch_24
+        weight: 1
+      - path: root/branch_25
+        weight: 1
+      - path: root/branch_26
+        weight: 1
+      - path: root/branch_27
+        weight: 1
+      - path: root/branch_28
+        weight: 1
+      - path: root/branch_29
+        weight: 1
+      - path: root/branch_30
+        weight: 1
+      - path: root/branch_31
+        weight: 1
+      - path: root/branch_32
+        weight: 1
+      - path: root/branch_33
+        weight: 1
+      - path: root/branch_34
+        weight: 1
+      - path: root/branch_35
+        weight: 1
+      - path: root/branch_36
+        weight: 1
+      - path: root/branch_37
+        weight: 1
+      - path: root/branch_38
+        weight: 1
+      - path: root/branch_39
+        weight: 1
+      - path: root/branch_40
+        weight: 1
+      - path: SMDImport
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

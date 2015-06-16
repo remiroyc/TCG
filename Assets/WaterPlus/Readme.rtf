@@ -1,0 +1,108 @@
+{\rtf1\ansi\ansicpg1251\deff0\deflang1049\deflangfe1049{\fonttbl{\f0\froman\fprq2\fcharset204{\*\fname Times New Roman;}Times New Roman CYR;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\froman\fprq2\fcharset0 Times New Roman;}{\f3\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\nowidctlpar\qc\b\f0\fs96 Water\super +\nosupersub\fs32\par
+\par
+Quick start\par
+\b0\fs22\par
+\pard\nowidctlpar It's very easy to start working with Water+:\par
+\par
+\b 1. \b0 Drag the Water Surface prefab from WaterPlus directory to your scene. Scale and position it.\par
+\b\par
+2. \b0 Open the plugin from Window/Water+.\par
+\par
+\b 3. \b0 If you're on Windows, press the "(1)Update Lightmaps" button. If you're on Mac, you may choose to update the lightmaps on a Windows machine. Otherwise you can bake the lightmaps on Mac, but you will have to manually remove the alpha channel from your lightmaps in an image processing application to make them correct. \b\i Important: you should have your lightmaps already baked in Unity, otherwise the tool won\rquote t work.\par
+\b0\i0 Available parameters for the Lightmap Updater are:\par
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li720 Wetness height - how high the "waves" from water will go above the water surface.\par
+{\pntext\f3\'B7\tab}Wetness amount - how much darker the lightmap should be underneath water surface. 0.0 = doesn't affect the lightmap at all; 1.0 = completely black. 0.2 is the recommended value.\par
+\pard\nowidctlpar\par
+\b 4. \b0 Once the lightmap baking is done, press the "(2)Build Cubemap" button. This will make a cubemap for your water to have a reflection. Please note, that this feature requires you to have a skybox assigned to the Renderer or to one of the cameras in the scene. Even if you have a cubemap, it's still recommended to bake a new one with Water+ - the tool makes some adjustments to the cubemap to make the water look more realistic. The cubemap may be reused in other levels given that you use the same skybox.\par
+\par
+\b 5. \b0 It's very important to set correct "Terrain layers" values. It's not recommended to use "Default" layer for the terrain - it should be something else. Ideally the terrain should be on a separate layer from everything else.\par
+"Water maps resolution" - it's not recommended to set this to something less than 1024, not even on mobile platforms. Higher resolution will result in longer bake times, but will ensure a smoother water-to-shore transition.\par
+After you've set all of the parameters, press the "Bake Water Maps" button. The bake might take a while.\par
+\par
+\b 6. \b0 After baking is done, you should replace the shader of the water surface, depending on your desired platform and quality level. For this you\rquote ll have to open your water\rquote s surface material, click on the shader drop-down box in the material (it should say \ldblquote Water+/Desktop\rdblquote ) and choose a desired shader from the Water+ shader submenu.\par
+\par
+\b 7.\b0  Open the WaterSurface gameobject and find the WaterPlusScript component. Select the desired movement type:\par
+\pard\nowidctlpar\fi-360\li720\lang1033\f1\'b7\tab\lang1049\f0 If you will be using flowmaps, choose \ul\b flowmap\ulnone\b0 . Be sure to set the \ul\b speed\ulnone\b0  parameter. Velocity parameter should be ignored.\par
+\lang1033\f1\'b7\tab\lang1049\ul\b\f0 Directional\ulnone\b0  movement is good for rivers. In directional movement the water will move in a single direction (specify the direction by \ul\b x\ulnone\b0  and \ul\b y\ulnone\b0  parameters of \ul\b velocity\ulnone\b0 ).\par
+\lang1033\f1\'b7\tab\lang1049\ul\b\f0 Island\ulnone\b0  movement is good for islands. In \ul\b island\ulnone\b0  movement the water will always move towards the player. Specify the \ul\b speed\ulnone\b0  parameter. Velocity parameter should be ignored. Be sure to set the \ul\b target\ulnone\b0  transform parameter to your player\rquote s transform (e.g. your character controller)\lang1033\f2 .\lang1049\f0\par
+\par
+\lang1033\b\f2 UPDATE: \b0 You may also choose to enable a new feature of Water+ - animated normal maps. This feature adds sophisticated animation to normal maps, refractions and the foam without affecting the performance. This feature works well on mobile devices. To enable this feature check the "animated normalmaps" checkbox inside of the \lang1049\f0 WaterPlusScript \lang1033\f2 component. For optimization sake it's recommended to use "still" movement type along with animated normal maps.\lang1049\f0\par
+\par
+\pard\nowidctlpar\b 8.\b0  Enjoy!\par
+\pard\nowidctlpar\qc\par
+\b\fs32 Important\b0\fs22\par
+\pard\nowidctlpar\par
+The water should be non-static, at least while baking the lightmaps to make sure that it doesn\rquote t affect the lightmap.\par
+\par
+If you want to move the Water+ system to a different directory (other than root), you\rquote ll have to change the waterSystemPath string accordingly in WaterPlus/Scripts/Editor/WaterPlus.cs\par
+\par
+The water material should be dupliated for every water surface you'll have in your game. This is being done automatically every time you press the Bake Water Maps button.\par
+\par
+Flowmaps slow down the system a lot. Disabling flowmaps may make the shader two times faster.\par
+\par
+Anisotropic texture filtering should be enabled in quality settings for the best results on Desktop platforms (Edit/Project Settings/Quality).\par
+\par
+The editor script won\rquote t work if you\rquote re targeting anything other than a Standalone, so you should change the platform to Standalone for the bake to complete. The final water works perfectly fine in Web Player/Mobile.\par
+\par
+\pard\nowidctlpar\qc\b\fs32 Material properties\par
+\pard\nowidctlpar\b0\fs22\par
+You may adjust Water+ material properties any way you like, to give you just the feel you need. For this you'll have to open the water surface and expand material properties.\par
+\par
+\b Main texture - \b0 To change the size of the waves you'll have to change the tiling of \b Main texture\b0 . Higher tiling values will make the waves smaller.\par
+\par
+\b Refraction texture\b0  - set this texture to whatever you'd like your water to refract. I.e. if your underwater terrain consists mostly of sand, make it sand. If it consists of rocks, make it rocks. It's also important to set the tiling correctly to make sure that the refractions will match the terrain better.\par
+\par
+\b Flowmap\b0  - you can use your own flowmap (generated externally). Water+ fully supports flowmaps.\par
+\par
+\b Shallow and deep water tints - \b0 Adjust the color of the water by changing the \b Shallow water tint \b0 and \b Deep water tint \b0 colors. This way you can create water of any feel and color. DeepWaterTint should always be darker than ShallowWaterTint, but both of them should be of a similar hue - green and blue won't look very nice together.\par
+\par
+\b Reflectivity \b0 - how much the water is reflective - higher values will result in more sky being reflected thus making the water surface mirror-like.\par
+\par
+\b Refractivity \b0 - amount of distortion of underwater texture due to refractions. Higher values will result in lots of distortion. It's recommended to keep this value low.\par
+\par
+\b Water attenuation\b0  - amount of water opaqueness. Lower values will result in the water being transparent. Higher values will make the water more opaque. The recommended value is 1.0 (slider set in the middle of the bar).\par
+\par
+\b Shininess \b0 - the size of reflected light (sun). Lower values will result in the reflection of sundisk to be larger. Higher values will make the water look more shiny.\par
+\par
+\b Gloss \b0 - strength of specular reflection. Higher values will result in more "white" colors in the specular reflection. \par
+\par
+\b fresnel0 \b0 - recommended to keep this value at the default value, it affects the fresnel reflection. Higher values will result in more light to be reflected from the skybox.\par
+\par
+\b Edge foam strength \b0 - higher values will result in the edge foam being stronger.\par
+\par
+\b Caustics strength \b0 - higher values will result in the caustics being stronger.\par
+\par
+\b Caustics scale \b0 - higher values will result in the caustics being smaller. Smaller values will make it bigger.\par
+\par
+\b Normal strength\b0  - lower values will make the water surface smoother. Higher values will make it rougher.\par
+\par
+\b Refractions wetness\b0  - this property is set automatically after baking the lightmaps, based on the \b\i refractions amount \b0\i0 value. It determines the amount of "darkness" of the water to better match underlying terrain's wetness color.\par
+\par
+\b internal parameters - \b0 you shouldn't change those manually, they're automatically updated by the script attached to the water surface.\par
+\pard\nowidctlpar\fi-360\li720\par
+\pard\nowidctlpar\qc\b\fs32 Using a custom mesh for water surface\par
+\pard\nowidctlpar\b0\fs22 If you decide to use a custom mesh for water surface instead of the provided prefab, make sure that the following conditions are met:\par
+\pard\nowidctlpar\fi-360\li720 1.\tab Water surface should be flat and horizontal\par
+2.\tab You should have good uniform UVs (in 0..1 space) without any stitches on the water surface to work properly.\par
+3.\tab If you\rquote re using mesh collider, make sure that the mesh is properly set up (having no mesh set up will not work).\par
+4.\tab Attach a \b\i duplicated\b0\i0  WaterSurface material.\par
+5.\tab Attach a WaterPlusScript component (located in WaterPlus/Scripts) for animation to work properly.\par
+\pard\nowidctlpar\par
+\par
+\pard\nowidctlpar\qc\b\fs32 Misc info\par
+\pard\nowidctlpar\b0\fs22\par
+Shininess of the water is baked into a texture for performance reasons. Therefore you should rebake the water maps after changing the shininess parameter to see the changes. Otherwise you can disable the \ldblquote BAKED_ANISOTROPIC_LIGHTING\rdblquote  option in the shader itself to see the results immediately. Be sure to make a final bake of the water maps after tweaking the default parameters of the material (specularity settings are needed for the bake).\par
+\par
+To decrease texture size you may want to decrease the resolution of the cubemap (takes up the most space, the default size depends on the resolution of skybox). However be careful with compressing the Watermap - doing so may introduce unwanted artifacts into the water, but compression is highly recommended on a mobile devices (and is enabled by default).\par
+\par
+Higher watermap resolution = softer edgeblend. Higher resolution means longer bake times. I.e. 4096x4096 water map might take 10+ minutes to calculate. It\rquote a also possible for you to get OutOfMemory exceptions. In this case, simply lower the watermap resolution.\par
+\par
+In order for the lightmap updater to work properly, all of the affected meshes should be static, and they should have proper UVs set up (generate lightmap UVs option in the mesh importer works without any problems).\par
+\par
+Water+ requires you to have at least a single directional light in the scene for the bake to work.\par
+\par
+\pard Water+ editor includes an optional tool that will adjust your flowmaps. You can press the \b Normalize and adjust speed \b0 button to make sure that the flowmaps match the terrain. The tool will adjust the speed of your flowmaps, depending on water depth at a given point. Deeper water = faster flowmap. The following free tool will allow you to create flowmaps: {\field{\*\fldinst{HYPERLINK "http://algoholic.eu/flow-field-editor-still-alive/"}}{\fldrslt{\ul\cf1 http://algoholic.eu/flow-field-editor-still-alive/}}}\f0\fs22  When importing flowmaps, make sure that \ldblquote bypass sRGB sampling\rdblquote  is enabled in texture import settings;\par
+}
+ 

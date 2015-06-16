@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 0c5aa7a8a47fd9f429bb1670274c2304
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip01 Spine11
+    100004: joint102
+    100006: joint112
+    100008: joint122
+    100010: joint132
+    100012: joint142
+    100014: joint22
+    100016: joint32
+    100018: joint42
+    100020: joint52
+    100022: joint62
+    100024: joint72
+    100026: joint82
+    100028: joint92
+    100030: mesh0
+    400000: //RootNode
+    400002: Bip01 Spine11
+    400004: joint102
+    400006: joint112
+    400008: joint122
+    400010: joint132
+    400012: joint142
+    400014: joint22
+    400016: joint32
+    400018: joint42
+    400020: joint52
+    400022: joint62
+    400024: joint72
+    400026: joint82
+    400028: joint92
+    400030: mesh0
+    4300000: mesh0
+    7400000: Noesis Frames
+    9500000: //RootNode
+    13700000: mesh0
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Noesis Frames
+      takeName: Noesis Frames
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip01 Spine11
+        weight: 1
+      - path: Bip01 Spine11/joint22
+        weight: 1
+      - path: joint32
+        weight: 1
+      - path: joint32/joint42
+        weight: 1
+      - path: joint52
+        weight: 1
+      - path: joint52/joint62
+        weight: 1
+      - path: joint72
+        weight: 1
+      - path: joint72/joint82
+        weight: 1
+      - path: joint92
+        weight: 1
+      - path: joint92/joint102
+        weight: 1
+      - path: joint112
+        weight: 1
+      - path: joint112/joint122
+        weight: 1
+      - path: joint132
+        weight: 1
+      - path: joint132/joint142
+        weight: 1
+      - path: mesh0
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

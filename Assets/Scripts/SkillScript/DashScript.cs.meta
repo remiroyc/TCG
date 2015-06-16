@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a8c71b8af6240594f83e0c9ecbe31b7e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - CharController: {instanceID: 0}
+  - DashAudioSource: {instanceID: 0}
+  - FxAura: {instanceID: 0}
+  - Aura: {instanceID: 0}
+  - TrailNormal: {instanceID: 0}
+  - TrailSuperSaiyan: {instanceID: 0}
+  - DashObject: {fileID: 100002, guid: 7b430b28e817e8d41a3ae2608a3441ff, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
