@@ -717,7 +717,7 @@ public class MyCharacterController : Saiyan
 
             case "combo_punch":
                 tdm.AttackTypes = AttackTypes.Combo;
-                tdm.NBAttack = NBAttack.Punch;
+                tdm.NbAttack = NBAttack.Punch;
 
 				var audioClip = AudioController.AudioClips["hit_combo1"];
 				if(audioClip != null && GetComponent<AudioSource>() != null)
@@ -730,7 +730,7 @@ public class MyCharacterController : Saiyan
 
             case "weak_attack_punch":
                 tdm.AttackTypes = AttackTypes.Weak;
-                tdm.NBAttack = NBAttack.Punch;
+                tdm.NbAttack = NBAttack.Punch;
 
                 clip = (sec >= (MaxChargeTime / 2) && ChargeActivated) ? AudioController.AudioClips["fat_punch"] : AudioController.AudioClips["weak_punch"];
                 GetComponent<AudioSource>().PlayOneShot(clip);
@@ -740,7 +740,7 @@ public class MyCharacterController : Saiyan
 
             case "weak_attack_kick":
                 tdm.AttackTypes = AttackTypes.Weak;
-                tdm.NBAttack = NBAttack.Kick;
+                tdm.NbAttack = NBAttack.Kick;
 
                 clip = (sec >= (MaxChargeTime / 2) && ChargeActivated) ? AudioController.AudioClips["fat_kick"] : AudioController.AudioClips["weak_kick"];
                 GetComponent<AudioSource>().PlayOneShot(clip);
@@ -750,7 +750,7 @@ public class MyCharacterController : Saiyan
 
             case "medium_attack_kick":
                 tdm.AttackTypes = AttackTypes.Medium;
-                tdm.NBAttack = NBAttack.Kick;
+                tdm.NbAttack = NBAttack.Kick;
                 clip = (sec >= (MaxChargeTime / 2) && ChargeActivated) ? AudioController.AudioClips["fat_kick"] : AudioController.AudioClips["weak_kick"];
                 GetComponent<AudioSource>().PlayOneShot(clip);
                 GiveDamage(tdm);
@@ -758,7 +758,7 @@ public class MyCharacterController : Saiyan
 
             case "medium_attack_punch":
                 tdm.AttackTypes = AttackTypes.Medium;
-                tdm.NBAttack = NBAttack.Punch;
+                tdm.NbAttack = NBAttack.Punch;
                 clip = (sec >= (MaxChargeTime / 2) && ChargeActivated) ? AudioController.AudioClips["fat_punch"] : AudioController.AudioClips["weak_punch"];
                 GetComponent<AudioSource>().PlayOneShot(clip);
                 GiveDamage(tdm);

@@ -50,7 +50,7 @@ public class SaibaimanScript : Enemy
             {
                 if (Time.time - _timerExplosion >= MaxTimeExplode || (_finalTargetPosition - transform.position).sqrMagnitude <= TargetToleranceMagnitude)
                 {
-                    Explode(playerIsTouched: magn <= MaxMagnitudeForExplosionImpact);
+                    Explode(magn <= MaxMagnitudeForExplosionImpact);
                 }
                 transform.position = Vector3.MoveTowards(transform.position, _finalTargetPosition, Time.deltaTime * Speed);
             }

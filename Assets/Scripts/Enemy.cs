@@ -448,7 +448,7 @@ public abstract class Enemy : Player, IArtificialIntelligenceAttack
     {
         if (TpSprite != null)
         {
-            var tpSprite = Instantiate(TpSprite, this.transform.position, this.transform.rotation) as GameObject;
+            var tpSprite = Instantiate(TpSprite, transform.position, transform.rotation) as GameObject;
             Destroy(tpSprite, 0.2f);
         }
 

@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class TakeDamageModel
 {
@@ -13,13 +12,13 @@ public class TakeDamageModel
     public Transform Emitter { get; set; }
     public string SkillName { get; set; }
 
-    public NBAttack NBAttack { get; set; }
+    public NBAttack NbAttack { get; set; }
     public AttackTypes AttackTypes { get; set; }
     public bool RightAttack { get; set; }
     public bool Default { get; set; }
 
-    public float AttackMultiplicator  { get; set; }
-     
+    public float AttackMultiplicator { get; set; }
+
     public TakeDamageModel()
     {
         Default = true;

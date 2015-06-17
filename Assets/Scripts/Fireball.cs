@@ -5,18 +5,17 @@ public class Fireball : MonoBehaviour
 
     public AudioClip GroundExplosionSound;
     public float Speed;
+    public Vector3 OriginPos;
 
     private float _timeLife;
-    public Vector3 _originPos;
     private LineRenderer _lineRenderer;
-
 
     private void Start()
     {
         _lineRenderer = GetComponent<LineRenderer>();
         _timeLife = Time.time;
-        _originPos = transform.position;
-        _lineRenderer.SetPosition(0, _originPos);
+        OriginPos = transform.position;
+        _lineRenderer.SetPosition(0, OriginPos);
     }
 
     private void Update()

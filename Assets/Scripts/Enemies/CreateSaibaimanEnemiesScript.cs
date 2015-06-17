@@ -22,11 +22,11 @@ public class CreateSaibaimanEnemiesScript : MonoBehaviour
         {
             var position = new Vector3(Random.Range(168, 225), 0, Random.Range(150, 180));
             var enemy = Instantiate(SaibaimanPrefab, position, Quaternion.identity) as GameObject;
-            enemy.GetComponent<SaibaimanScript>().Target = _myPlayer;
+            if (enemy != null)
+            {
+                enemy.GetComponent<SaibaimanScript>().Target = _myPlayer;
+            }
         }
     }
-
-
-
 
 }

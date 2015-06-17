@@ -23,7 +23,7 @@ public enum EnemyType
     Cell,
     Saibaiman,
     SBuu,
-	Freezer1
+    Freezer1
 }
 
 public enum EnemyActions
