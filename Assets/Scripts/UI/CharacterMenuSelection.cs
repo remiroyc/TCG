@@ -9,6 +9,7 @@ public class CharacterMenuSelection : MonoBehaviour
     public Slider StrengthSlider, AgilitySlider, SpeedSlider;
     public Transform PlayerRespawn;
 
+    public Transform LoadingPanel;
     public Image NotAvailable;
     public Button RightArrowBtn, LeftArrowBtn;
 
@@ -116,6 +117,15 @@ public class CharacterMenuSelection : MonoBehaviour
         ReloadCharInfos();
 
 
+    }
+
+    public void LaunchGame()
+    {
+        if (CharactersList[_currentIndex].IsAvailable)
+        {
+            LoadingPanel.gameObject.SetActive(true);
+            Application.LoadLevel("LaunchWaveScene");
+        }
     }
 
 }
