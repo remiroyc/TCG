@@ -5,6 +5,13 @@ public abstract class Player : MonoBehaviour
 
 	#region Public properties
 
+    [Range(1, 100)]
+    public float Agility = 50f;
+    [Range(1, 100)]
+    public float Strength = 100f;
+    [Range(1, 10)]
+    public float Speed = 1.5f;
+
     public LayerMask EnemyLayerMask;
 	public LayerMask GroundLayer;
 	public AudioClip[] PainAudioClips;
